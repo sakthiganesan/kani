@@ -1,6 +1,6 @@
-n=input("")
+n=int(input(""))
 sum=0
-i=1
-while(i<=n):
-sum=sum+i
+while(n>o):
+  sum=sum+i
+  n=n-1
   print(sum)
