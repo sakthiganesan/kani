@@ -1,7 +1,7 @@
-no=int(input(""))
-reverse=0
-while(no>0):
-  remainder=no%10
-  reverse=(reverse*10)+remainder
-  no=no//10
-  print(reverse)
+num=int(input(""))
+a=0
+while(num!=0):
+    remainder=num%10
+    a=remainder+(a*10)
+    num=num//10
+print(r)
