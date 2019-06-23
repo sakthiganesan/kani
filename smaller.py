@@ -1,0 +1,5 @@
+m=int(input())
+array=list(map(int,input().split()))
+a=max(array)
+b=min(array)
+print(a,b)
