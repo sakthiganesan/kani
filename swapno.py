@@ -1,5 +1,8 @@
-a,b=map(int,input().split())
+
+a=int(input(""))
+b=int(input(""))
 temp=a
 a=b
 b=temp
-print(a,b)
+print('The value of a after swapping: {}'.format(a))
+print('The value of b after swapping: {}'.format(b))
