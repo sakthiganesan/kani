@@ -1,2 +1,3 @@
 num=list(map(int,input()))
-print(max(num))
+o=max(num)
+print(o)
