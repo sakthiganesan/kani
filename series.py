@@ -1,10 +1,8 @@
-a=int(input(""))
-num1=0
-num2=1
-count=0
-while(count<a):
-  print(num1,end=',')
-  nth=num1+num2
-  num1=num2
-  num2=nth
-  count+=1
+num=int(input())
+fib1,fib2=0,1
+print(fib2,end=" ")
+for i in range(1,num):
+  fib3=fib1+fib2
+ print(fib3,end=" ")
+ fib1,fib2=fib2,fib3
+
