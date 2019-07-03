@@ -1,3 +1,3 @@
 a=int(input(""))
-hr=a//3600
-print(hr,a)
+r=a
+print(a//60,a%60)
