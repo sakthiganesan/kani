@@ -1,0 +1,5 @@
+hr,mins=map(int,input().split())
+hr1,mins1=map(int,input().split())
+tm=abs(hr-hr1)
+tm1=abs(mins-mins1)
+print(tm,tm1)
