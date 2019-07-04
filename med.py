@@ -1,5 +1,0 @@
-n=int(input())
-arr=list(map(int,input().split()[:n]))
-arr.sort()
-lng=int((len(arr))/2)
-print(arr[lng])
