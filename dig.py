@@ -1,3 +1,3 @@
 a=input()
-for i in str(a):
+for i in list(a):
   print(i,end="")
